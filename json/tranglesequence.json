@@ -1,0 +1,39 @@
+{
+    "subject":"Fill the blank.",
+    "question" : [
+        
+                {
+                    "list1":[10,20,5,40],
+                    "list2":[20,30,40,50],
+                    "list3":[12,23,0,44],
+                    "list4":[10,21,31,41],
+                    "answer_array":2,
+                    "answer_number":3
+                },
+                {
+                    "list1":[10,20,30,40],
+                    "list2":[10,20,30,40],
+                    "list3":[10,20,30,40],
+                    "list4":[10,20,30,40],
+                    "answer_array":1,
+                    "answer_number":0
+                },
+                {
+                    "list1":[10,20,30,40],
+                    "list2":[10,20,30,40],
+                    "list3":[10,20,30,40],
+                    "list4":[10,20,30,40],
+                    "answer_array":3,
+                    "answer_number":1
+                },
+                {
+                    "list1":[10,20,30,40],
+                    "list2":[10,20,30,40],
+                    "list3":[10,20,30,40],
+                    "list4":[10,20,30,40],
+                    "answer_array":2,
+                    "answer_number":2
+                }
+        
+    ]
+}

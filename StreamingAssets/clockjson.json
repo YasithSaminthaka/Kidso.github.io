@@ -1,0 +1,20 @@
+{
+    "subject":"Fill the blank.",
+    "question" : [
+        {          
+            "hourhand":6,
+            "minitehand":25
+        },
+        {          
+            "hourhand":5,
+            "minitehand":25
+        },
+        {          
+            "hourhand":1,
+            "minitehand":10
+        },{          
+            "hourhand":12,
+            "minitehand":55
+        }
+    ]
+}

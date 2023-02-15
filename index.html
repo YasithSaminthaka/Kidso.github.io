@@ -157,14 +157,14 @@ div.scrollmenu div {
 <!-- <iframe class="sequencegame-iframe" src="./SequenceGame/index.html" title="W3Schools Free Online Web Tutorials" style="width:1000px;height:650px;"> -->
   <!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Game 1</button> -->
   <div>
-    <h3>Sequence Gaame</h3>
-    <img class="game-button" id="sequence" src="./images/sequence.png" onclick="document.getElementById('id01').style.display='block'" />
+    <h3>Sequence Game</h3>
+    <img class="game-button" id="sequence" src="./images/sequence.png" onclick="gameButtonAction('./SequenceGame/index.html');" />
   </div>
   <div>
     <h3>Clock</h3>
-    <img class="game-button" id="clock" src="./images/sequence.png" onclick="document.getElementById('id01').style.display='block'" />
+    <img class="game-button" id="clock" src="./images/sequence.png" onclick="gameButtonAction('./clockGame/index.html');" />
   </div>
-  <div>
+  <!-- <div>
     <h3>Sequence Gaame</h3>
     <img class="game-button" src="./images/sequence.png" onclick="document.getElementById('id01').style.display='block'" />
   </div>
@@ -174,8 +174,8 @@ div.scrollmenu div {
   </div>
   <div>
     <h3>Sequence Gaame</h3>
-    <img class="game-button" src="./images/sequence.png" onclick="document.getElementById('id01').style.display='block'" />
-  </div>
+    <img class="game-button" src="./images/sequence.png" onclick="" />
+  </div> -->
   
 </div>
 <div class="sequence-game">
@@ -187,8 +187,8 @@ div.scrollmenu div {
   <div class="imgcontainer">
     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
   </div>
-  <iframe class="sequencegame-iframe" src="./SequenceGame/index.html" title="W3Schools Free Online Web Tutorials" style="width:1000px;height:650px;"></iframe>
-   
+  <h1 id="loading" style="margin-left: auto;margin-right: auto;">Loading</h1>
+    <iframe id="game-frame" class="sequencegame-iframe" name="iframe_game" src="" title="kidso maths module" style="width:1000px;height:650px;"></iframe>
 </div>
 
 </body>
@@ -202,5 +202,20 @@ div.scrollmenu div {
           modal.style.display = "none";
       }
   }
+
+  function gameButtonAction(url) {
+    document.getElementById('id01').style.display='block';
+    var gameiframe = document.getElementById("game-frame");
+    gameiframe.src = url;
+  }
+  // const myIframe = document.getElementById('game-frame');
+
+  // myIframe.addEventListener('load', () => {
+  //   setTimeout(() => {
+  //     myIframe.style.display = 'block';
+  //     const myIframes = document.getElementById('loading');
+  //     myIframes.style.display = 'none';
+  //   }, 3000);
+  // });
   </script>
 </html>

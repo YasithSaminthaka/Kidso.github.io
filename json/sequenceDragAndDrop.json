@@ -1,14 +1,13 @@
 {
     "subject":"Fill the blank.",
-    "questionlist" : [
-        
+    "questionlist" : [       
                 {
-                    "question":[20,10,11,4,56],
-                    "answer":[4,10,11,20,56]
+                    "list1":[20,10,11,4,56],
+                    "list2":[4,10,11,20,56]
                 },
                 {
-                    "question":[20,10,11,4,5],
-                    "answer":[4,5,10,11,20]
+                    "list1":[20,10,11,4,5],
+                    "list2":[4,5,10,11,20]
                 }
         
     ]

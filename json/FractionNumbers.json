@@ -1,0 +1,29 @@
+{
+    "subject":"Answer.",
+    "question" : [
+        {          
+            "get1":1,
+            "core1":5,
+            "get2":2,
+            "core2":5
+        },
+        {          
+            "get1":1,
+            "core1":7,
+            "get2":2,
+            "core2":7
+        },
+        {          
+            "get1":3,
+            "core1":7,
+            "get2":6,
+            "core2":7
+        },
+        {          
+            "get1":1,
+            "core1":4,
+            "get2":2,
+            "core2":4
+        }
+    ]
+}
